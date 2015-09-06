@@ -1,0 +1,28 @@
+{
+  "title": "TabMark",
+  "name": "firefox-tabmark",
+  "version": "0.0.1",
+  "description": "Bookmarks your non regular tabs",
+  "main": "tabmarks.js",
+  "author": "Heiko 'riot' Weinen <riot@c-base.org>",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "preferences": [{
+    "name": "closetabs",
+    "title": "Close tabs",
+    "description": "Close all tabs after bookmarking",
+    "type": "bool",
+    "value": true
+  },
+  {
+    "name": "killstupidtabs",
+    "title": "Kill stupid tabs",
+    "description": "Kill all unnecessary tabs before bookmarking",
+    "type": "bool",
+    "value": true
+  }
+  ]
+}
