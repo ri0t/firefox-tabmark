@@ -2,7 +2,7 @@
   "title": "TabMark",
   "name": "firefox-tabmark",
   "version": "0.0.1",
-  "description": "Bookmarks your non regular tabs",
+  "description": "Unclutters your 500+ tabs by removing useless junk and bookmarking the rest",
   "main": "tabmarks.js",
   "author": "Heiko 'riot' Weinen <riot@c-base.org>",
   "engines": {
@@ -18,8 +18,8 @@
     "value": true
   },
   {
-    "name": "killstupidtabs",
-    "title": "Kill stupid tabs",
+    "name": "killtabs",
+    "title": "Kill tabs",
     "description": "Kill all unnecessary tabs before bookmarking",
     "type": "bool",
     "value": true
